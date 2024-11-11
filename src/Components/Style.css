@@ -1,0 +1,73 @@
+body{
+    background-image: url('./image/Tech.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.responsive {
+    background-image: url('./image/web.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 1px; /* Optional: rounded corners */
+    color: #8e0341; /*Optional: change text color for readability */
+  }
+  
+
+.responsive {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.text-area{
+    text-align: justify;
+    /* padding: 5em;  it will make column1 in small width*/ 
+    display: flex;
+    flex-direction: column;
+}
+.text-area1{
+    text-align: justify;
+    padding: 1em;
+    display: flex;
+
+}
+
+label {
+    font-weight: bold;
+    /* margin-bottom: 0.5em; */
+  }
+
+  @media (min-width: 600px) {
+    .form-group {
+      flex-direction: row;
+      align-items: center;
+      gap: 1em;
+    }
+  
+    label {
+      width: 30%; /* Adjust width as needed */
+      text-align: justify;
+    }
+  
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /* Full-width button */
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: poi nter;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
